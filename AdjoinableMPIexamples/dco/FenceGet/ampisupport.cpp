@@ -1,0 +1,1 @@
+../IsendRecvWaitTwoWay/ampisupport.cpp

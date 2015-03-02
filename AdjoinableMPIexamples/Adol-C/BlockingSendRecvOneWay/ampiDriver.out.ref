@@ -1,0 +1,2 @@
+ampiDriver.cpp: process 1 received number 3.140000 from process 0
+ampiDriver.cpp: process 0 got gradient 3.140000 

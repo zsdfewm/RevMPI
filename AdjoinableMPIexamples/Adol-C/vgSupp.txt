@@ -1,0 +1,45 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   ...
+   fun:PMPI_Init
+   fun:AMPI_Init_NT
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Value8
+   ...
+   fun:PMPI_Init
+   fun:AMPI_Init_NT
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Param
+   write(count)
+   ...
+   fun:PMPI_Init
+   fun:AMPI_Init_NT
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr8
+   fun:__intel_sse2_strlen
+   fun:createFileName
+   ...
+   fun:initNewTape
+   ...
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr8
+   fun:__intel_sse2_strlen
+   fun:createFileName
+   fun:taylor_begin
+   fun:start_trace
+   ...
+   fun:main
+}
